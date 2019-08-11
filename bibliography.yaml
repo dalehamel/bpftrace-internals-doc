@@ -1,7 +1,37 @@
 references:
-- id: 
+- id: bpftrace-brendan-gregg
+  title: bpftrace (DTrace 2.0) for Linux 2018
+  author:
+  - given: Brendan
+    family: Gregg
+  URL: http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html
+- id: velocity-brendan-gregg-2017
+  title: Brendan Gregg 2017 Velocity talk
+  author:
+  - given: Brendan
+    family: Gregg
+  URL: https://www.slideshare.net/brendangregg/velocity-2017-performance-analysis-superpowers-with-linux-ebpf
+- id: bpftrace-issue-245
+  title: Bpftrace Network Tracing Limitations Issue
+  author:
+  - given: Dale
+    family: Hamel
+  URL: https://github.com/iovisor/bpftrace/issues/245
+- id: bpftrace-issue-30
+  title: Bpftrace add inet_ntop() Issue
+  author:
+  - given: Brendan
+    family: Gregg
+  URL: https://github.com/iovisor/bpftrace/issues/30
+- id: bpftrace-pull-269
+  title: Initial inet_ntop implementation
+  author:
+  - given: Dale
+    family: Hamel
+  URL: https://github.com/iovisor/bpftrace/pull/269
+- id: ajor
   title: 
   author:
-  - given: 
-    family: 
+  - given: Alistair
+    family: Robinson
   URL: 
