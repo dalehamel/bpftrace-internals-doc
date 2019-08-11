@@ -29,9 +29,21 @@ references:
   - given: Dale
     family: Hamel
   URL: https://github.com/iovisor/bpftrace/pull/269
-- id: ajor
-  title: 
+- id: bpftrace-pull-566
+  title: ntop add support for arrays and IPv6
   author:
-  - given: Alistair
-    family: Robinson
-  URL: 
+  - given: Matheus
+    family: Marchini
+  URL: https://github.com/iovisor/bpftrace/pull/566
+- id: mmarchini
+  title: Matheus Marchini's homepage
+  author:
+  - given: Matheus
+    family: Marchini
+  URL: https://mmarchini.me/
+- id: ajor
+  title: Alastair Robertson's Homepage
+  author:
+  - given: Alastair
+    family: Robertson
+  URL: https://ajor.co.uk/projects/

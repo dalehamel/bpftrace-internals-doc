@@ -2,5 +2,8 @@
 	path = src/bpftrace-269
 	url = https://github.com/iovisor/bpftrace.git
 [submodule "src/bpftrace2"]
-	path = src/bpftrace2
+	path = src/bpftrace-566
+	url = https://github.com/iovisor/bpftrace.git
+[submodule "src/bpftrace-267"]
+	path = src/bpftrace-267
 	url = https://github.com/iovisor/bpftrace.git
