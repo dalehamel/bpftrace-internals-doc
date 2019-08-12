@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FORMATS=(html pdf epub)
+STYLE=tango
 
 set -x
 
@@ -23,7 +24,7 @@ pandoc_build()
       --csl ieee-with-url.csl \
       --template=./templates/GitHub.html5 \
       --filter pandoc-citeproc \
-      --filter pandoc-include-code -s --highlight-style espresso \
+      --filter pandoc-include-code -s --highlight-style $STYLE \
       -o output/doc.${format}
 
   elif [ "${format}" == "pdf" ];then
@@ -34,7 +35,7 @@ pandoc_build()
       --bibliography=bibliography.yaml \
       --csl ieee-with-url.csl \
       --filter pandoc-citeproc \
-      --filter pandoc-include-code -s --highlight-style espresso \
+      --filter pandoc-include-code -s --highlight-style $STYLE \
       -o output/doc.${format}
   else
      pandoc docs/*.md --toc \
@@ -44,7 +45,7 @@ pandoc_build()
       --bibliography=bibliography.yaml \
       --csl ieee-with-url.csl \
       --filter pandoc-citeproc \
-      --filter pandoc-include-code -s --highlight-style espresso \
+      --filter pandoc-include-code -s --highlight-style $STYLE \
       -o output/doc.${format}
   fi
 }
