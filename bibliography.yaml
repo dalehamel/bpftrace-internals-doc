@@ -47,3 +47,6 @@ references:
   - given: Alastair
     family: Robertson
   URL: https://ajor.co.uk/projects/
+- id: bpftrace-internals-development-doc
+  title: bpftrace internals_development.md doc
+  URL: https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md

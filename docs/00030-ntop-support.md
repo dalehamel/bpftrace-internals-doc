@@ -21,11 +21,11 @@ accepting a variable size argument list:
 ```{.yacc include=src/bpftrace-269/src/parser.yy startLine=220 endLine=222}
 ```
 
-When the parser encounters a function call then, it actuall passes the identity
-of the function (the identifier that preceeded the parentheses) as the first
-argument, then the argument list (the third parser token) as the second
-argument to a new `Call` AST node. As for the variable argument list, we can
-see it is just an AST node for an `ExpressionList`:
+When the parser encounters a function call then, it passes the identity of the
+function (the identifier that preceded the parentheses) as the first argument,
+then the argument list (the third parser token) as the second argument to a new
+`Call` AST node. As for the variable argument list, we can see it is just an
+AST node for an `ExpressionList`:
 
 ```{.yacc include=src/bpftrace-269/src/parser.yy startLine=231 endLine=233}
 ```
@@ -167,7 +167,7 @@ type is as expected, it will parse the address using the library function
 `inet_ntop`, then return the string representation of this value.
 
 That concludes the work that was done to get support IPv4 network addresses! As
-this wis my main (and probably the main) use-case, IPv6 support could come
+this was my main (and probably the main) use-case, IPv6 support could come
 later.
 
 ## tcp tools enabled by ntop support

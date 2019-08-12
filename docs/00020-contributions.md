@@ -20,7 +20,7 @@ easily translatable from dtrace, they were nearly on par with one another. I
 had heard of dtrace before, from some debugging my colleague Burke Libbey had
 done in our development environments on Darwin (OS X). It baffled me that such
 a powerful tool existed bundled into ever one of our laptops, but that there
-was no such analagous tool for Linux.
+was no such analogous tool for Linux.
 
 I had been following kernel tracing since 2013, as I had been trying
 (unsuccessfully) to implement Systemtap support into a side-project of mine,
@@ -36,11 +36,6 @@ Unlike Systemtap, eBPF would work without issue on Chromium OS derivatives, and
 so was more viable for production usage.
 
 ## Contributions
-
-When I come upon a missing feature in an open source project, I might be at
-at first disappointed, even dejected, but sometimes I instead become  really,
-really excited - it means that **I** could be the one to implement it, if I put
-in the time to understand the problem and come up with a workable solution!
 
 This is the best type of problem to solve - one you have yourself, as you get
 to act as your own QA / customer, and benefit directly from the new feature.
@@ -67,8 +62,8 @@ an issue if I have some idea for how **I** might implement it, or some
 intention of being the one to own it and see it fixed.
 
 I read through bpftrace's internals development docs, which gave an overview
-of how bpftrace uses LLVM to generate eBPF. Basically, it revelead how bpftrace
-uses the LLVM framework for code generatino, that ultimately become compiled
+of how bpftrace uses LLVM to generate eBPF. Basically, it revealed how bpftrace
+uses the LLVM framework for code generation, that ultimately become compiled
 eBPF instructions that can be loaded into the Linux kernel. Cool!
 
 There were even some examples that walked through how other functionality was
@@ -76,5 +71,5 @@ added to bpftrace, so I could use these as a practical reference point and a
 "reverse-engineering" manual, to see how I could use the same concepts to
 implement this for myself.
 
-// FIXME - put some references to the internals docs here?
-
+![bpftrace sequence diagram](src/bpftrace-566/images/bpftrace_internals_2018.png)
+[@bpftrace-internals-development-doc]
