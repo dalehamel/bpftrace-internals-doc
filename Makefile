@@ -11,6 +11,9 @@ clean:
 	rm -rf output
 	rm -f index.html
 
+spell:
+	scripts/spellcheck
+
 .PHONY: doc/build
 doc/build:
 	${DOCKER} run --user `id -u`:`id -g` -v ${PWD}:/app ${PANDOC_BUILDER_IMAGE} /app/scripts/pandoc-build
