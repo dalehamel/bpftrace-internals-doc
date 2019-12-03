@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# sorry it's only on my machine...
+
+mdspell docs/* --ignored "$(ruby -e "STDOUT.print File.read(File.expand_path('~/.dotfiles/vim/spell/en.utf-8.add')).lines.map { |l| l.strip }.join(',')")"

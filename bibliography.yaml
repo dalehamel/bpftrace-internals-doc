@@ -1,0 +1,52 @@
+references:
+- id: bpftrace-brendan-gregg
+  title: bpftrace (DTrace 2.0) for Linux 2018
+  author:
+  - given: Brendan
+    family: Gregg
+  URL: http://www.brendangregg.com/blog/2018-10-08/dtrace-for-linux-2018.html
+- id: velocity-brendan-gregg-2017
+  title: Brendan Gregg 2017 Velocity talk
+  author:
+  - given: Brendan
+    family: Gregg
+  URL: https://www.slideshare.net/brendangregg/velocity-2017-performance-analysis-superpowers-with-linux-ebpf
+- id: bpftrace-issue-245
+  title: Bpftrace Network Tracing Limitations Issue
+  author:
+  - given: Dale
+    family: Hamel
+  URL: https://github.com/iovisor/bpftrace/issues/245
+- id: bpftrace-issue-30
+  title: Bpftrace add inet_ntop() Issue
+  author:
+  - given: Brendan
+    family: Gregg
+  URL: https://github.com/iovisor/bpftrace/issues/30
+- id: bpftrace-pull-269
+  title: Initial inet_ntop implementation
+  author:
+  - given: Dale
+    family: Hamel
+  URL: https://github.com/iovisor/bpftrace/pull/269
+- id: bpftrace-pull-566
+  title: ntop add support for arrays and IPv6
+  author:
+  - given: Matheus
+    family: Marchini
+  URL: https://github.com/iovisor/bpftrace/pull/566
+- id: mmarchini
+  title: Matheus Marchini's homepage
+  author:
+  - given: Matheus
+    family: Marchini
+  URL: https://mmarchini.me/
+- id: ajor
+  title: Alastair Robertson's Homepage
+  author:
+  - given: Alastair
+    family: Robertson
+  URL: https://ajor.co.uk/projects/
+- id: bpftrace-internals-development-doc
+  title: bpftrace internals_development.md doc
+  URL: https://github.com/iovisor/bpftrace/blob/master/docs/internals_development.md
